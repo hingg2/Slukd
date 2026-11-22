@@ -1,14 +1,21 @@
 ﻿<!doctype html>
-<html lang="en">
+<html lang="uk">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Вгадай число</title>
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <h1>Практична робота з Git та GitHub Pages</h1>
-
+   <main class="card">
+      <h1>Вгадай число</h1>
+      <p>Я загадав число від 1 до 100.</p>
+      <input id="guess" type="number" min="1" max="100" placeholder="Ваше число">
+      <button id="check">Перевірити</button>
+      <button id="restart">Нова гра</button>
+      <p id="message"></p>
+      <p>Спроб: <span id="tries">0</span></p>
+   </main>
    <script src="index.js"></script>
 </body>
 </html>
